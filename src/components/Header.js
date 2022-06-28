@@ -9,15 +9,15 @@ const Wrap = styled.div`
 
   div {
     background-color: white;
-    width: 68%;
+    width: 62%;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
     .logo {
-      width: 65px;
-      height: 51.22px;
+      width: 40px;
+      height: 54px;
     }
 
     section {

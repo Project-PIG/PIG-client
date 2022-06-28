@@ -1,15 +1,7 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Profile from "./components/Profile";
 import Header from "./components/Header";
-
+import Main from "./pages/Main";
 function App() {
-  return (
-    <>
-      <Header />
-      <Profile />
-    </>
-  );
+  return <Main />;
 }
 
 export default App;
