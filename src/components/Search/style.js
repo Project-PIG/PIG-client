@@ -96,4 +96,10 @@ export const Tag = styled.button`
   margin: 10px;
   border-radius: 8px;
   box-shadow: 2px 2px 8px #cbbec6;
+  transition: 0.2s;
+  &:hover {
+    color: #ff644f;
+    box-shadow: 4px 4px 10px #8e878b;
+    padding-top: -6px;
+  }
 `;
