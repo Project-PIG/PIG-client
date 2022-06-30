@@ -97,7 +97,7 @@ export const Tag = styled.button`
   border-radius: 8px;
   box-shadow: 2px 2px 8px #cbbec6;
   transition: 0.2s;
-  color: {clicked ?  Black : #ff644f};
+  color: ${(clicked) ?  Black : #ff644f};
   &:hover {
     color: #ff644f;
     box-shadow: 4px 4px 10px #8e878b;
