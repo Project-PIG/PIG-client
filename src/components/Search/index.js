@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import * as S from "./style";
 
 const Search = () => {
+  const [clickTag, setClickTag] = useState(false);
+
   return (
     <>
       <S.Font />
@@ -15,7 +17,12 @@ const Search = () => {
             <p>전공분야</p>
             <section>
               <div>
-                <S.Tag>Backend</S.Tag>
+                <S.Tag
+                  clicked="clickTag"
+                  onClick={() => setClickTag(!clickTag)}
+                >
+                  Backend
+                </S.Tag>
                 <S.Tag>Frontend</S.Tag>
                 <S.Tag>Game</S.Tag>
               </div>
