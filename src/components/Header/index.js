@@ -1,10 +1,16 @@
 import React from "react";
-import * as S from "./style";
+import * as H from "./style";
 const Header = () => {
   return (
-    <S.Test>
-      <p>asdd</p>asd
-    </S.Test>
+    <H.Wrap>
+      <div>
+        <img src="images/Logo.png" className="logo" />
+        <section>
+          <img src="images/Chatting_icon.png" className="chat" />
+          <div className="profile"></div>
+        </section>
+      </div>
+    </H.Wrap>
   );
 };
 
