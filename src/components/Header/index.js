@@ -1,8 +1,8 @@
 import React from "react";
-import * as H from "./style";
+import * as S from "./style";
 const Header = () => {
   return (
-    <H.Wrap>
+    <S.Wrap>
       <div>
         <img src="images/Logo.png" className="logo" />
         <section>
@@ -10,7 +10,7 @@ const Header = () => {
           <div className="profile"></div>
         </section>
       </div>
-    </H.Wrap>
+    </S.Wrap>
   );
 };
 

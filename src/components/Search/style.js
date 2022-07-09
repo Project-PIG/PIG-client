@@ -103,6 +103,5 @@ export const Tag = styled.button`
     color: #ff644f;
     box-shadow: 4px 4px 10px #8e878b;
     padding-top: -6px;
-    outline: #ff644f 1px solid;
   }
 `;
