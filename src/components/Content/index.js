@@ -4,7 +4,10 @@ import * as S from "./style";
 const Content = () => {
   return (
     <>
-      <S.Major>Frontend</S.Major>
+      <S.Major>
+        <img src="dot.png" />
+        Frontend
+      </S.Major>
       <S.Content_wrap>
         <User />
         <User />
