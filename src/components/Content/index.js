@@ -1,11 +1,12 @@
 import React from "react";
 import User from "../User";
 import * as S from "./style";
+import * as SVG from "../../SVG";
 const Content = () => {
   return (
     <>
       <S.Major>
-        <img src="dot.png" />
+        <SVG.Dot />
         Frontend
       </S.Major>
       <S.Content_wrap>
