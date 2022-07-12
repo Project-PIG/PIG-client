@@ -8,12 +8,18 @@ export const Major = styled.div`
     font-weight: normal;
     font-style: normal;
   }
+
   font-family: "SUIT-Medium";
   font-size: 45px;
   font-weight: bold;
   color: #ff644f;
   margin-top: 80px;
   margin-left: 18%;
+
+  img {
+    width: 16px;
+    height: 16px;
+  }
 `;
 export const Content_wrap = styled.div`
   margin-top: 80px;

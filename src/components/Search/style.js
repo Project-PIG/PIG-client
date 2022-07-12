@@ -99,9 +99,10 @@ export const Tag = styled.button`
   transition: 0.2s;
   cursor: pointer;
   color: ${(props) => (props.clicked ? "#ff644f" : "Black")};
+  border: ${(props) => (props.clicked ? "1px solid #ff644f" : "none")};
   &:hover {
     color: #ff644f;
-    box-shadow: 4px 4px 10px #8e878b;
+    box-shadow: 4px 4px 10px #a7a5a6;
     padding-top: -6px;
   }
 `;

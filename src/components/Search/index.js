@@ -2,8 +2,33 @@ import React, { useState } from "react";
 import * as S from "./style";
 
 const Search = () => {
-  const [clickTag, setClickTag] = useState(false);
-
+  const [clickTag, setClickTag] = useState([
+    {
+      name: "bk",
+      select: false,
+    },
+    {
+      name: "ft",
+      select: false,
+    },
+    {
+      name: "ios",
+      select: false,
+    },
+    {
+      name: "",
+      select: false,
+    },
+    {
+      name: "bk",
+      select: false,
+    },
+  ]);
+  const list = [1, 23, 45, 6, 67, 7];
+  const newList = list.map((e) => {
+    return e * 2;
+  });
+  console.log(newList);
   return (
     <>
       <S.Font />
@@ -18,8 +43,8 @@ const Search = () => {
             <section>
               <div>
                 <S.Tag
-                  clicked="clickTag"
-                  onClick={() => setClickTag(!clickTag)}
+                  clicked={clickTag.bk}
+                  onClick={() => setClickTag({ ...clickTag, bk: !clickTag.bk })}
                 >
                   Backend
                 </S.Tag>
