@@ -48,11 +48,23 @@ const Search = () => {
                 >
                   Backend
                 </S.Tag>
-                <S.Tag>Frontend</S.Tag>
+                <S.Tag
+                  clicked={clickTag.ft}
+                  onClick={() => setClickTag({ ...clickTag, ft: !clickTag.ft })}
+                >
+                  Frontend
+                </S.Tag>
                 <S.Tag>Game</S.Tag>
               </div>
               <div>
-                <S.Tag>iOS</S.Tag>
+                <S.Tag
+                  clicked={clickTag.ios}
+                  onClick={() =>
+                    setClickTag({ ...clickTag, ios: !clickTag.ios })
+                  }
+                >
+                  iOS
+                </S.Tag>
                 <S.Tag>Android</S.Tag>
                 <S.Tag>Security</S.Tag>
               </div>
